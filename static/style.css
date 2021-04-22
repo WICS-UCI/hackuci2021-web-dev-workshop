@@ -1,16 +1,11 @@
 /* Use the tag name to select all elements of that type */
 body{
-  background-color: #FAFFFA;
+  background-color: black;
 }
 
 img{
   width: 50%;
   height: 50%;
-  margin: 2em;
-}
-
-h1{
-  font-weight: bold;
 }
 
 /* Use . to select elements of a specific class */
@@ -18,11 +13,10 @@ h1{
   /* When importing fonts (in this case Bebas Neue) from Google Fonts, be sure 
       to include fallbacks because a browser may not support that font or the font 
       may take a second to load.  */
-  font-family: 'Courier Prime', monospace; 
-  color: black;
+  font-family: 'Bebas Neue', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
   padding: 50px; /* px = pixels */
 }
-
 
 /* Use # to select the element with that id  */
 #home{
